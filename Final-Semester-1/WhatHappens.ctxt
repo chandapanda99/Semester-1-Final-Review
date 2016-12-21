@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=WhatHappens()
+comment1.params=a
+comment1.target=void\ One(WhatHappens)
+comment2.params=a
+comment2.target=void\ Two(int)
+numComments=3

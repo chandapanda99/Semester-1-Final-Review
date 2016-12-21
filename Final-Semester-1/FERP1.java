@@ -1,0 +1,53 @@
+/**
+ * Write a description of class FERP1 here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+import java.util.*;
+import java.text.*;
+public class FERP1
+{
+    public static void main(String[] args)
+    {
+        promptEnterKey enter = new promptEnterKey();
+        
+        Scanner Keyboard = new Scanner(System.in);
+        System.out.println("Number 1");
+        double c = 89/100;
+        System.out.println(c);
+        enter.EnterKey();
+        System.out.println("Number 2");
+        String name = "Slim Shady";
+        //System.out.println(name.charAt(10));
+        System.out.println(name.substring(5, 10));
+        System.out.println(name.compareTo("Slim Not so Shady"));
+        name.toLowerCase();
+        System.out.println(name);
+        System.out.println(name.indexOf("S"));
+        System.out.println(name.indexOf("p"));
+        enter.EnterKey();
+        System.out.println("Number 3");
+        int x = 5, y = 2;
+        System.out.println("x + y =" + x+y);
+        System.out.println(x+y);
+        System.out.println("Press Enter to Continue");
+        enter.EnterKey();
+        System.out.println("Number 5");
+        Random generator = new Random();
+        int z = generator.nextInt(50) + 1;
+        System.out.println(z);
+        double s = Math.random() * 50 + 1;
+        int d = (int) s;
+        System.out.println(d);
+        enter.EnterKey();
+        System.out.println("Number 6");
+        String word = "ABIOGENETICALLY";
+        System.out.println(word.substring(7, 15));
+        enter.EnterKey();
+        System.out.println("Number 7");
+        DecimalFormat fmt = new DecimalFormat("##.##");
+        double num = 56.1618;
+        System.out.println(fmt.format(num));
+    }    
+}
